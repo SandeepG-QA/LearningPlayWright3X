@@ -10,6 +10,9 @@ for (let num of arr) {
     seen.add(num);
   }
 }
-
-console.log(...duplicates); // [25, 99] // ... spread operator is used to convert the set into an array 
-// for easier display.
+if (duplicates.size === 0) {
+  console.log("No duplicates found.");
+} else {
+  console.log(...duplicates); // [25, 99] // ... spread operator is used to convert the set into an array 
+  // for easier display.
+}
