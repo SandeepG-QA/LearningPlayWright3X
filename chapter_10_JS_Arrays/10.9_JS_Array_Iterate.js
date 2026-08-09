@@ -23,3 +23,4 @@ console.log("-------------");
 for (let [index, test] of tests.entries()) {
     console.log(index, test);
 }
+
