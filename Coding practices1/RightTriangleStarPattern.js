@@ -6,3 +6,13 @@ while (i<= n)
     console.log("*".repeat(i));
     i++;
 }
+console.log("----------------------");
+// alterate way of above program
+let n1 = 5;
+for (let i = 1 ; i <= n1; i++)
+{
+    for (let j = 1 ; j <= i; j++)
+    {
+        process.stdout.write("*");
+    }console.log("");
+} 
