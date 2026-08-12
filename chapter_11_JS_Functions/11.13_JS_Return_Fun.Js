@@ -14,4 +14,4 @@ function logtest(name)
 {
     console.log(`Running :${name}`);
 }
-logtest("Hi")
+logtest("Hi");
