@@ -9,3 +9,11 @@ if (text === reversed) {
 } else {
   console.log("NO");
 }
+// alternate way to above program
+const str = "madam";
+let reverse = "";
+for (let i = str.length-1 ; i >= 0 ; i--)
+  {
+  reverse = reverse+str[i];
+}
+console.log(reverse);
