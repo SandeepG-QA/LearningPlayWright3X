@@ -1,0 +1,12 @@
+{
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.inlineSuggest.enabled": true,
+  "js/ts.suggest.enabled": true,
+  "editor.tabCompletion": "on",
+  "files.autoSave": "afterDelay"
+}

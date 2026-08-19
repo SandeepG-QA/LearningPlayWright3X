@@ -7,4 +7,16 @@ let n = 5;
     const stars = '*'.repeat(2 * i - 1);
     console.log(spaces + stars);
   }
+  //another way of above program
+  let n1 = 6;
+  for (let i = 1; i<=n1 ; i++)
+  {
+    let row = " ";
+    for (let j= 1; j<=n1-i; j++){
+      row +=" ";
+    }
+    for (let j = 1; j <=2*i-1; j++){
+      row = row + "*";
+    }console.log(row);
+  }
 

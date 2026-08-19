@@ -14,6 +14,7 @@ for (let i = 0; i < arr.length; i++) {
 
   if (isDuplicate && duplicates.indexOf(arr[i]) === -1) {
     duplicates.push(arr[i]);
+    
   }
 }
 
