@@ -10,7 +10,7 @@ if (text === reversed) {
   console.log("NO");
 }
 // alternate way to above program
-const str = "madam";
+const str = "test";
 let reverse = "";
 for (let i = str.length-1 ; i >= 0 ; i--)
   {

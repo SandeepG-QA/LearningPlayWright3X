@@ -1,24 +1,17 @@
-// Find Duplicate Elements using loops
-const arr = [1, 2, 3, 4, 4];
-const duplicates = [];
+// Find Duplicate Elements using Sets (O(n))
+const arr = [1, 2, 3, 4,-5];
+const seen = new Set();
+const duplicates = new Set();
 
-for (let i = 0; i < arr.length; i++) {
-  let isDuplicate = false;
-
-  for (let j = 0; j < i; j++) {
-    if (arr[i] === arr[j]) {
-      isDuplicate = true;
-      break;
-    }
-  }
-
-  if (isDuplicate && duplicates.indexOf(arr[i]) === -1) {
-    duplicates.push(arr[i]);
-    
+for (const value of arr) {
+  if (seen.has(value)) {
+    duplicates.add(value);
+  } else {
+    seen.add(value);
   }
 }
 
-if (duplicates.length === 0) {
+if (duplicates.size === 0) {
   console.log("no duplicate");
 } else {
   console.log("Duplicate elements:", ...duplicates);

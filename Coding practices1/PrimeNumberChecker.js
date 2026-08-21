@@ -1,5 +1,5 @@
 // Prime Number Checker
-const num = 15;
+const num = 21;
 
 function isPrime(n) {
   if (n <= 1) return false;
